@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#1b0000">
+
+    <ImageView
+        android:src="@drawable/coffee_shop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="987"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1597"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coffee Love"
+            android:textSize="35sp"
+            android:textColor="#6a4f4b"
+            android:paddingLeft="15dp"
+            android:fontFamily="@font/rubikmoonrocks_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coffe love is a wonderful place to come and learn about all the varieties of coffee that we offer, from an espresso to a delicious cappuccino."
+            android:textSize="25sp"
+            android:textColor="#6a4f4b"
+            android:paddingLeft="25dp"
+            android:fontFamily="@font/caveat_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule"
+            android:textSize="30sp"
+            android:textColor="#6a4f4b"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/caveat_bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monday to Friday from 4pm to 9pm"
+            android:textSize="25sp"
+            android:textColor="#6a4f4b"
+            android:paddingLeft="25dp"
+            android:fontFamily="@font/caveat_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact information"
+            android:textSize="30sp"
+            android:textColor="#6a4f4b"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/caveat_bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone number: 416 089 29 31"
+            android:textSize="25sp"
+            android:textColor="#6a4f4b"
+            android:paddingLeft="25dp"
+            android:fontFamily="@font/caveat_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email address: coffe_love@gmail.com"
+            android:textSize="25sp"
+            android:textColor="#6a4f4b"
+            android:paddingLeft="25dp"
+            android:fontFamily="@font/caveat_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Website: https://coffeelove.com"
+            android:textSize="25sp"
+            android:textColor="#6a4f4b"
+            android:paddingLeft="25dp"
+            android:fontFamily="@font/caveat_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="30sp"
+            android:textColor="#6a4f4b"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/caveat_bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canary #92 Residence Strawberries"
+            android:textSize="25sp"
+            android:textColor="#6a4f4b"
+            android:paddingLeft="25dp"
+            android:fontFamily="@font/caveat_regular"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
